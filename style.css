@@ -224,10 +224,26 @@ nav {
    gap: 3vw;
    margin-top: 5vw;
 }
+.section3 .left-bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .section3 .left-bottom .left-top h1{
         margin-bottom: 1vw;
         font-size: 3vw;
         font-weight: 100;
+}
+.section3 .left-bottom .left-down{
+  display: flex;
+  gap: 1vw;
+}
+.section3 .left-bottom .left-down i{
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0.5vw;
+  color: black;
+  font-size: 1.2vw;
 }
 .section3 .right-bottom h6{
     padding: 1.3vw 6vw;
